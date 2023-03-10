@@ -1,0 +1,17 @@
+@import '../../Styles/variables';
+
+.navbar {
+    background-color: $main-color;
+    color: $light-bg-color;
+    position: relative;
+    z-index: 100;
+}
+
+.link {
+    color: white !important;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1.5px;
+}
