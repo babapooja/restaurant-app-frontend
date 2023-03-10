@@ -276,7 +276,6 @@ const Menu = () => {
         <div className='w-full flex justify-center tabs'>
           <Tabs.Group
             aria-label="Tabs with icons"
-            style="default"
           >
             {
               Object.keys(menu[type]).map((key, { icon, title }) => {

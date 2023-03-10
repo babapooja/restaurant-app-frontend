@@ -30,7 +30,6 @@ const Content = () => {
       description:
         "Croissant, bagguette, onion soup, etc. french delicacies are served at our place and are a must try items.",
     },
-    ,
     {
       title: "Japneese",
       src: JAPNEESE,
@@ -38,7 +37,6 @@ const Content = () => {
       description:
         "The traditional cuisine of Japan is based on rice with miso soup and other dishes; also served by us.",
     },
-    ,
     {
       title: "Chineese",
       src: CHINEESE,

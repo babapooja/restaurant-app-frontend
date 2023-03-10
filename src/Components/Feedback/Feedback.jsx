@@ -34,12 +34,12 @@ const Feedback = () => {
   const displayRating = (rating) => {
     var arr = Array(parseInt(rating)).fill(1);
     if (arr.length < 5) {
-      while (arr.length != 5) {
+      while (arr.length !== 5) {
         arr.push(0);
       }
     }
     return arr.map((x) => {
-      return <Rating.Star  filled={x == 1} />;
+      return <Rating.Star  filled={x === 1} />;
     });
   };
 
@@ -68,7 +68,7 @@ const Feedback = () => {
               <ImQuotesRight size={20} />
             </span>
 
-            {item.rating != "" ? (
+            {item.rating !== "" ? (
               <div className="ratings flex text-sm">
                 <Rating>
                   {displayRating(item.rating.split("/")[0])} &nbsp;{" "}
