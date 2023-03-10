@@ -1,5 +1,5 @@
 // import Switcher from "./Switcher";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./Pages/Login/Login";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
